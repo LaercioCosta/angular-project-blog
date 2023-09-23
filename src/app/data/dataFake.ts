@@ -8,7 +8,19 @@ export const dataFake = [
   {
     "id": "2",
     "photo": "https://images4.alphacoders.com/130/1303457.jpg",
-    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+    "title": "PlayStation",
+    "description": "Helo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus laboriosam minus expedita voluptate laborum optio ipsam deleniti corporis quos dolorem cumque placeat veritatis, accusantium nisi possimus soluta neque fugiat ut!"
+  },
+  {
+    "id": "3",
+    "photo": "https://img.olhardigital.com.br/wp-content/uploads/2022/08/dc-marvel.jpg",
+    "title": "DC COMICS",
+    "description": "Helo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus laboriosam minus expedita voluptate laborum optio ipsam deleniti corporis quos dolorem cumque placeat veritatis, accusantium nisi possimus soluta neque fugiat ut!"
+  },
+  {
+    "id": "4",
+    "photo": "https://images.alphacoders.com/131/1316584.png",
+    "title": "XBOX GAME PASS",
     "description": "Helo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus laboriosam minus expedita voluptate laborum optio ipsam deleniti corporis quos dolorem cumque placeat veritatis, accusantium nisi possimus soluta neque fugiat ut!"
   },
 ]
