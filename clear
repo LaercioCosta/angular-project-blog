@@ -1,0 +1,178 @@
+[33mcommit 41780f07dfe2984721b1f40294a28116847f94e9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Thu Sep 21 14:54:12 2023 -0300
+
+    angular blog v1.0
+
+ .../components/big-card/big-card.component.html    |  4 [32m+[m[31m--[m
+ src/app/components/big-card/big-card.component.ts  |  2 [32m++[m
+ .../small-card/small-card.component.html           |  2 [32m+[m[31m-[m
+ .../components/small-card/small-card.component.ts  |  2 [32m++[m
+ src/app/data/dataFake.ts                           | 16 [32m+++++[m[31m-----[m
+ src/app/pages/content/content.component.ts         | 34 [32m+++++++++++++++++++[m[31m---[m
+ src/app/pages/home/home.component.html             |  4 [32m+++[m
+ src/index.html                                     |  4 [32m+[m[31m--[m
+ 8 files changed, 51 insertions(+), 17 deletions(-)
+
+[33mcommit 9b4483a23034dc3b06c8b34191afaa0420c2564c[m
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Thu Sep 21 13:40:13 2023 -0300
+
+    routing and fakeData Base
+
+ src/app/app-routing.module.ts                      | 13 [32m++++++++++[m[31m-[m
+ src/app/app.component.css                          |  6 [32m++++++[m
+ src/app/app.component.html                         |  4 [32m+++[m[31m-[m
+ src/app/app.module.ts                              |  4 [32m+++[m[31m-[m
+ .../components/menu-bar/menu-bar.component.html    |  1 [32m+[m
+ src/app/data/dataFake.ts                           | 14 [32m++++++++++++[m
+ src/app/pages/content/content.component.css        | 25 [32m++++++++++++++++++++++[m
+ src/app/pages/content/content.component.html       | 17 [32m+++++++++++++++[m
+ src/app/pages/content/content.component.ts         | 18 [32m++++++++++++++++[m
+ src/app/pages/home/home.component.css              |  5 [31m-----[m
+ src/app/pages/home/home.component.html             |  3 [31m---[m
+ 11 files changed, 99 insertions(+), 11 deletions(-)
+
+[33mcommit 2bcfc48ba14a963e07b02ae3fef5c35a0d88cc92[m
+Merge: 893d915 f253426
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Thu Sep 21 11:28:26 2023 -0300
+
+    Merge branch 'main' of https://github.com/LaercioCosta/angular-project-blog
+
+[33mcommit 893d91576a5ce0d168d3ea85fd259a7feeae660c[m
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Thu Sep 21 11:27:47 2023 -0300
+
+    components dinamyc
+
+ .../components/big-card/big-card.component.html    |  8 [32m+++[m[31m----[m
+ src/app/components/big-card/big-card.component.ts  | 10 [32m++++++++[m[31m-[m
+ .../small-card/small-card.component.html           |  4 [32m++[m[31m--[m
+ .../components/small-card/small-card.component.ts  |  6 [32m++++[m[31m-[m
+ src/app/pages/home/home.component.html             | 26 [32m++++++++++++++++++[m[31m----[m
+ 5 files changed, 42 insertions(+), 12 deletions(-)
+
+[33mcommit f25342669a4546577e6973794a521cd40c3945fd[m
+Author: Laércio Costa <laerciocostam1999@gmail.com>
+Date:   Wed Sep 20 23:28:16 2023 -0300
+
+    ideas delete
+
+ .ideas/ideia Blog.png | Bin [31m512048[m -> [32m0[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit d621d6cdfe3dd03d5ec076a6873ce3161243b65f[m
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Wed Sep 20 23:26:20 2023 -0300
+
+    add ignore to .idea
+
+ .gitignore | 2 [32m++[m
+ 1 file changed, 2 insertions(+)
+
+[33mcommit 919c9b0230536e4b52e8f2f92550521a4608bce6[m
+Merge: b1350ae 708cd52
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Wed Sep 20 23:24:04 2023 -0300
+
+    Merge branch 'main' of https://github.com/LaercioCosta/angular-project-blog
+
+[33mcommit b1350ae7617c33689c1de3ee87bd3bf6b9e58bfb[m
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Wed Sep 20 23:19:41 2023 -0300
+
+    finishing styles components
+
+ src/app/components/big-card/big-card.component.css |  1 [32m+[m
+ .../components/big-card/big-card.component.html    |  1 [31m-[m
+ src/app/components/menu-bar/menu-bar.component.css | 10 [32m++++++++[m
+ .../components/menu-bar/menu-bar.component.html    |  8 [32m++++++[m[31m-[m
+ .../components/small-card/small-card.component.css | 27 [32m++++++++++++++++++[m[31m----[m
+ .../small-card/small-card.component.html           | 23 [32m+++++++++++[m[31m-------[m
+ src/app/pages/home/home.component.css              | 13 [32m++++++++++[m[31m-[m
+ src/app/pages/home/home.component.html             |  6 [32m+++++[m
+ 8 files changed, 73 insertions(+), 16 deletions(-)
+
+[33mcommit 708cd52d2f2e15b598e6c8715b259696351fb527[m
+Author: Laércio Costa <laerciocostam1999@gmail.com>
+Date:   Wed Sep 20 15:58:10 2023 -0300
+
+    Update README.md
+
+ README.md | 26 [31m--------------------------[m
+ 1 file changed, 26 deletions(-)
+
+[33mcommit be9102f1bd28708b0e66bcbf62a26230c499bf09[m
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Wed Sep 20 15:49:52 2023 -0300
+
+    created component
+
+ angular.json                                       |   3 [32m+[m
+ src/app/app.component.html                         | 484 [32m+[m[31m--------------------[m
+ src/app/app.component.spec.ts                      |  35 [31m--[m
+ src/app/app.module.ts                              |  12 [32m+[m[31m-[m
+ src/app/components/big-card/big-card.component.css |  27 [32m++[m
+ .../components/big-card/big-card.component.html    |  20 [32m+[m
+ src/app/components/big-card/big-card.component.ts  |  15 [32m+[m
+ src/app/components/menu-bar/menu-bar.component.css |   0
+ .../components/menu-bar/menu-bar.component.html    |   1 [32m+[m
+ src/app/components/menu-bar/menu-bar.component.ts  |  15 [32m+[m
+ .../components/menu-title/menu-title.component.css |  17 [32m+[m
+ .../menu-title/menu-title.component.html           |   5 [32m+[m
+ .../components/menu-title/menu-title.component.ts  |  15 [32m+[m
+ .../components/small-card/small-card.component.css |  14 [32m+[m
+ .../small-card/small-card.component.html           |  13 [32m+[m
+ .../components/small-card/small-card.component.ts  |  15 [32m+[m
+ src/app/pages/home/home.component.css              |   3 [32m+[m
+ src/app/pages/home/home.component.html             |  11 [32m+[m
+ src/app/pages/home/home.component.ts               |  15 [32m+[m
+ src/styles.css                                     |  13 [32m+[m
+ 20 files changed, 214 insertions(+), 519 deletions(-)
+
+[33mcommit 8053b095e09b4448ac2bdb46abac22e04d91c8bd[m
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Wed Sep 20 12:14:05 2023 -0300
+
+    project created
+
+ .ideas/ideia Blog.png | Bin [31m0[m -> [32m512048[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit a0fbd1961648ecce73d21ad11e921fc67610915b[m
+Author: unknown <laerciocostam1999@gmail.com>
+Date:   Wed Sep 20 12:10:37 2023 -0300
+
+    initial commit
+
+ .browserslistrc                      |    16 [32m+[m
+ .editorconfig                        |    16 [32m+[m
+ .gitignore                           |    42 [32m+[m
+ .vscode/extensions.json              |     4 [32m+[m
+ .vscode/launch.json                  |    20 [32m+[m
+ .vscode/tasks.json                   |    42 [32m+[m
+ README.md                            |    27 [32m+[m
+ angular.json                         |   101 [32m+[m
+ karma.conf.js                        |    44 [32m+[m
+ package-lock.json                    | 21959 [32m+++++++++++++++++++++++++++++++++[m
+ package.json                         |    38 [32m+[m
+ src/app/app-routing.module.ts        |    10 [32m+[m
+ src/app/app.component.css            |     0
+ src/app/app.component.html           |   484 [32m+[m
+ src/app/app.component.spec.ts        |    35 [32m+[m
+ src/app/app.component.ts             |    10 [32m+[m
+ src/app/app.module.ts                |    18 [32m+[m
+ src/assets/.gitkeep                  |     0
+ src/environments/environment.prod.ts |     3 [32m+[m
+ src/environments/environment.ts      |    16 [32m+[m
+ src/favicon.ico                      |   Bin [31m0[m -> [32m948[m bytes
+ src/index.html                       |    13 [32m+[m
+ src/main.ts                          |    12 [32m+[m
+ src/polyfills.ts                     |    53 [32m+[m
+ src/styles.css                       |     1 [32m+[m
+ src/test.ts                          |    26 [32m+[m
+ tsconfig.app.json                    |    15 [32m+[m
+ tsconfig.json                        |    32 [32m+[m
+ tsconfig.spec.json                   |    18 [32m+[m
+ 29 files changed, 23055 insertions(+)
